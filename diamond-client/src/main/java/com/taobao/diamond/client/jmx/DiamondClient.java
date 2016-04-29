@@ -9,18 +9,12 @@
  */
 package com.taobao.diamond.client.jmx;
 
-import java.lang.management.ManagementFactory;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import org.apache.log4j.Logger;
 
 import javax.management.MBeanServer;
 import javax.management.ObjectName;
-
-import org.apache.log4j.Logger;
+import java.lang.management.ManagementFactory;
+import java.util.*;
 
 
 public class DiamondClient implements DiamondClientMBean {

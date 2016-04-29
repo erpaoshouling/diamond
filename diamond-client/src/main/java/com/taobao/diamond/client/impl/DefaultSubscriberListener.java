@@ -9,6 +9,14 @@
  */
 package com.taobao.diamond.client.impl;
 
+import com.taobao.diamond.client.SubscriberListener;
+import com.taobao.diamond.common.Constants;
+import com.taobao.diamond.configinfo.ConfigureInfomation;
+import com.taobao.diamond.manager.ManagerListener;
+import org.apache.commons.lang.StringUtils;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -16,15 +24,6 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.Executor;
-
-import org.apache.commons.lang.StringUtils;
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
-
-import com.taobao.diamond.client.SubscriberListener;
-import com.taobao.diamond.common.Constants;
-import com.taobao.diamond.configinfo.ConfigureInfomation;
-import com.taobao.diamond.manager.ManagerListener;
 
 public class DefaultSubscriberListener implements SubscriberListener {
 	private static final Log log = LogFactory

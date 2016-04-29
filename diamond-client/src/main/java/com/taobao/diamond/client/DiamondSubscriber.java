@@ -9,10 +9,10 @@
  */
 package com.taobao.diamond.client;
 
+import com.taobao.diamond.configinfo.CacheData;
+
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
-
-import com.taobao.diamond.configinfo.CacheData;
 
 
 /**

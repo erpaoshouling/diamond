@@ -9,9 +9,9 @@
  */
 package com.taobao.diamond.client;
 
-import java.util.concurrent.Executor;
-
 import com.taobao.diamond.configinfo.ConfigureInfomation;
+
+import java.util.concurrent.Executor;
 
 
 /**

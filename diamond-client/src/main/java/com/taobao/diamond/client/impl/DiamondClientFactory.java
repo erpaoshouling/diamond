@@ -9,11 +9,11 @@
  */
 package com.taobao.diamond.client.impl;
 
-import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
-
 import com.taobao.diamond.client.DiamondSubscriber;
 import com.taobao.diamond.common.Constants;
+
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * Diamond客户端工厂类，可以产生一个单例的DiamondSubscriber，供所有的DiamondManager共用 不同的集群对应不同的单例
