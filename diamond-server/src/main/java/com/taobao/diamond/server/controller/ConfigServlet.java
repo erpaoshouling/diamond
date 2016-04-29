@@ -9,21 +9,19 @@
  */
 package com.taobao.diamond.server.controller;
 
-import java.io.IOException;
+import com.taobao.diamond.common.Constants;
+import com.taobao.diamond.server.service.ConfigService;
+import com.taobao.diamond.server.service.DiskService;
+import org.springframework.util.StringUtils;
+import org.springframework.web.context.WebApplicationContext;
+import org.springframework.web.context.support.WebApplicationContextUtils;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-import org.springframework.util.StringUtils;
-import org.springframework.web.context.WebApplicationContext;
-import org.springframework.web.context.support.WebApplicationContextUtils;
-
-import com.taobao.diamond.common.Constants;
-import com.taobao.diamond.server.service.ConfigService;
-import com.taobao.diamond.server.service.DiskService;
+import java.io.IOException;
 
 public class ConfigServlet extends HttpServlet {
 

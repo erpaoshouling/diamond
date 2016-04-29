@@ -9,13 +9,9 @@
  */
 package com.taobao.diamond.server.service;
 
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Timestamp;
-
-import javax.sql.DataSource;
-
+import com.taobao.diamond.domain.ConfigInfo;
+import com.taobao.diamond.domain.Page;
+import com.taobao.diamond.server.utils.PaginationHelper;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.dao.DataAccessException;
@@ -25,9 +21,11 @@ import org.springframework.jdbc.core.PreparedStatementSetter;
 import org.springframework.jdbc.core.simple.ParameterizedRowMapper;
 import org.springframework.util.StringUtils;
 
-import com.taobao.diamond.domain.ConfigInfo;
-import com.taobao.diamond.domain.Page;
-import com.taobao.diamond.server.utils.PaginationHelper;
+import javax.sql.DataSource;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Timestamp;
 
 public class DBPersistService implements PersistService {
 

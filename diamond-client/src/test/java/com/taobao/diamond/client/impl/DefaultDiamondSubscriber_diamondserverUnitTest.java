@@ -1,12 +1,11 @@
 package com.taobao.diamond.client.impl;
 
-import java.util.concurrent.Executor;
-import java.util.concurrent.atomic.AtomicBoolean;
-
-import org.junit.Test;
-
 import com.taobao.diamond.client.SubscriberListener;
 import com.taobao.diamond.configinfo.ConfigureInfomation;
+import org.junit.Test;
+
+import java.util.concurrent.Executor;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 
 public class DefaultDiamondSubscriber_diamondserverUnitTest {

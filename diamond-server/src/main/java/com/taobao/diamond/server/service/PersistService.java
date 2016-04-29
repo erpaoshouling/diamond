@@ -9,10 +9,10 @@
  */
 package com.taobao.diamond.server.service;
 
-import java.sql.Timestamp;
-
 import com.taobao.diamond.domain.ConfigInfo;
 import com.taobao.diamond.domain.Page;
+
+import java.sql.Timestamp;
 
 /**
  * 数据库服务，提供ConfigInfo在数据库的存取服务
